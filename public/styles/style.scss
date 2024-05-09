@@ -82,11 +82,11 @@ a {
 // INTRO
 .intro {
     @include sm {
-        height: 110vh !important;
+        height: 180vh !important;
     }
 
     @include xs {
-        height: 110vh !important;
+        height: 180vh !important;
     }
 }
 

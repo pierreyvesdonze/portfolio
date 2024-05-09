@@ -99,12 +99,12 @@ a {
 
 @media (min-width: 576px) and (max-width: 768px) {
   .intro {
-    height: 110vh !important;
+    height: 180vh !important;
   }
 }
 @media (min-width: 300px) and (max-width: 576px) {
   .intro {
-    height: 110vh !important;
+    height: 180vh !important;
   }
 }
 

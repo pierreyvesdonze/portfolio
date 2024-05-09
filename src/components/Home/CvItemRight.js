@@ -22,7 +22,7 @@ const CvItemRight = ({ bgColor }) => {
             className="cv-item"
         >
             <motion.div variants={cardVariants} style={{
-                height: '120vh',
+                height: '180vh',
                 backgroundColor: bgColor,
                 margin: '0',
                 borderRadius: '60px 0 0 60px'

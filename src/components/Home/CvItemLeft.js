@@ -23,11 +23,10 @@ const CvItemLeft = ({ bgColor }) => {
             className="cv-item"
         >
             <motion.div variants={cardVariants} style={{
-                height: '150vh',
+                height: '230vh',
                 backgroundColor: bgColor,
                 margin: '0',
                 borderRadius: '0 60px 60px 0',
-                overflowY: 'scroll'
             }}>
                 <motion.div style={{ margin: 0, paddingTop: '5%', textAlign: 'center', color: 'black', fontSize: '2em' }}>
                     <h1>EXPÉRIENCE PRO</h1>
