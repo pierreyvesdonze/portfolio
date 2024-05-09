@@ -12,6 +12,17 @@ body {
     width: 0;
 }
 
+ul {
+    @include sm {
+        margin: 0;
+        padding: 0;
+    }
+    @include xs {
+        margin: 0;
+        padding: 0;
+    }
+}
+
 ul>li {
     list-style-type: none;
     font-size: 0.7em;
