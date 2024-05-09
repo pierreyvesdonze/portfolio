@@ -174,12 +174,12 @@ a {
 }
 @media (min-width: 300px) and (max-width: 576px) {
   .cv-item-right {
-    height: 180vh;
+    height: 155vh;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
   .cv-item-right {
-    height: 180vh;
+    height: 155vh;
   }
 }
 
