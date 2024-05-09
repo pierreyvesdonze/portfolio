@@ -1,0 +1,8 @@
+:root {
+  --body-bg: white;
+  --joy-bg-color: #cdd7e1;
+}
+
+:root[theme=dark] {
+  --body-bg: rgb(20 21 22);
+}/*# sourceMappingURL=settings.css.map */
