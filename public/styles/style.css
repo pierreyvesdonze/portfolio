@@ -110,17 +110,6 @@ a {
   box-shadow: inset 0px 0px 8px 3px rgba(0, 0, 0, 0.719);
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-  .intro {
-    height: 180vh !important;
-  }
-}
-@media (min-width: 300px) and (max-width: 576px) {
-  .intro {
-    height: 180vh !important;
-  }
-}
-
 .intro-name {
   font-size: 6em;
   text-align: center;

@@ -92,16 +92,6 @@ a {
 }
 
 // INTRO
-.intro {
-    @include sm {
-        height: 180vh !important;
-    }
-
-    @include xs {
-        height: 180vh !important;
-    }
-}
-
 .intro-name {
     font-size: 6em;
     text-align: center;
