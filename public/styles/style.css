@@ -121,6 +121,21 @@ a {
   }
 }
 
+.intro-name {
+  font-size: 6em;
+  text-align: center;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .intro-name {
+    font-size: 3em;
+  }
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .intro-name {
+    font-size: 3em;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 768px) {
   #presentation,
   #cv {
@@ -148,6 +163,48 @@ a {
   .presentation-item,
   .cv-item {
     width: 100%;
+  }
+}
+
+.cv-item-left {
+  height: 150vh;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .cv-item-left {
+    height: 220vh;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .cv-item-left {
+    height: 220vh;
+  }
+}
+
+.cv-item-right {
+  height: 130vh;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .cv-item-right {
+    height: 180vh;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .cv-item-right {
+    height: 180vh;
+  }
+}
+
+.skills-container {
+  height: 105vh;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .skills-container {
+    height: 130vh;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .skills-container {
+    height: 130vh;
   }
 }
 

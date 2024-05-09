@@ -22,7 +22,7 @@ const PresentationItemLeft = ({ bgColor }) => {
             className="presentation-item"
         >
             <motion.div variants={cardVariants} style={{
-                height: '100vh',
+                height: '120vh',
                 backgroundColor: bgColor,
                 margin: '0',
                 borderRadius: '0 60px 60px 0'

@@ -9,8 +9,7 @@ const Skills = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ type: "easeOut", duration: 2 }}
-                className="skills-container"
-                style={{ height: '105vh' }}>
+                className="skills-container">
 
                 <motion.h1 style={{ fontSize: '4em', textAlign: 'center' }}>SOFT SKILLS</motion.h1>
 

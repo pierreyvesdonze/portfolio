@@ -26,7 +26,7 @@ const Intro = () => {
                 initial={{ y: '100vh' }}
                 animate={{ y: 100 }}
                 transition={{ type: 'easeOut', duration: 0.5 }}
-                style={{ fontSize: '6em', textAlign: 'center' }}
+                className="intro-name"
             >PIERRE-YVES DONZÉ</motion.h1>
 
             <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -49,7 +49,7 @@ const Intro = () => {
             <motion.h2
                 key={'devweb'}
                 initial={{ y: '100vh' }}
-                animate={{ y: 100 }}
+                animate={{ y: 30 }}
                 transition={{ type: 'easeOut', duration: 0.6 }}
                 style={{ fontSize: '2.5em', textAlign: 'center' }}
             >Développeur web fullstack</motion.h2>
@@ -58,7 +58,7 @@ const Intro = () => {
                 <motion.div
                     key={'html5'}
                     initial={{ y: '100vh' }}
-                    animate={{ y: 100 }}
+                    animate={{ y: 20 }}
                     transition={{ type: 'easeOut', duration: 0.8 }}
                 >
                     <AiOutlineHtml5 size={35} />
@@ -67,7 +67,7 @@ const Intro = () => {
                 <motion.div
                     key={'css3'}
                     initial={{ y: '100vh' }}
-                    animate={{ y: 100 }}
+                    animate={{ y: 20 }}
                     transition={{ type: 'easeOut', duration: 1 }}
                 >
                     <TbBrandCss3 size={35} />
@@ -76,7 +76,7 @@ const Intro = () => {
                 <motion.div
                     key={'php'}
                     initial={{ y: '100vh' }}
-                    animate={{ y: 100 }}
+                    animate={{ y: 20 }}
                     transition={{ type: 'easeOut', duration: 1.1 }}
                 >
                     <FaPhp size={35} />
@@ -85,7 +85,7 @@ const Intro = () => {
                 <motion.div
                     key={'sql'}
                     initial={{ y: '100vh' }}
-                    animate={{ y: 100 }}
+                    animate={{ y: 20 }}
                     transition={{ type: 'easeOut', duration: 1.2 }}
                 >
                     <TbSql size={35} />
@@ -94,7 +94,7 @@ const Intro = () => {
                 <motion.div
                     key={'js'}
                     initial={{ y: '100vh' }}
-                    animate={{ y: 100 }}
+                    animate={{ y: 20 }}
                     transition={{ type: 'easeOut', duration: 1.3 }}
                 >
                     <TbBrandJavascript size={35} />
@@ -103,7 +103,7 @@ const Intro = () => {
                 <motion.div
                     key={'symfony'}
                     initial={{ y: '100vh' }}
-                    animate={{ y: 100 }}
+                    animate={{ y: 20 }}
                     transition={{ type: 'easeOut', duration: 1.4 }}
                 >
                     <FaSymfony size={35} />
@@ -112,7 +112,7 @@ const Intro = () => {
                 <motion.div
                     key={'react'}
                     initial={{ y: '100vh' }}
-                    animate={{ y: 100 }}
+                    animate={{ y: 20 }}
                     transition={{ type: 'easeOut', duration: 1.5 }}
                 >
                     <FaReact size={35} />
@@ -122,7 +122,7 @@ const Intro = () => {
             <motion.div
                 key={'arrowDown'}
                 initial={{ y: '100vh' }}
-                animate={{ y: 150 }}
+                animate={{ y: 100 }}
                 transition={{ type: 'easeOut', duration: 1.5 }}
                 style={{ margin: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
             >

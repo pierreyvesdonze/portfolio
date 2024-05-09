@@ -11,9 +11,9 @@ const Project = () => {
         <AnimatePresence>
             <motion.div
                 key={'absurdum'}
-                initial={{ opacity: 0, x: 300 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ type: 'easeOut', duration: 0.3 }}
+                initial={{ opacity: 0}}
+                animate={{ opacity: 1}}
+                transition={{ type: 'easeOut', duration: 1 }}
                 className='project-container'
             >
                 <motion.h1 style={{ fontSize: '2.5em' }}>Absurdum</motion.h1>
@@ -29,9 +29,9 @@ const Project = () => {
 
             <motion.div
                 key={'mydiary'}
-                initial={{ opacity: 0, x: -300 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ type: 'easeOut', duration: 0.5 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ type: 'easeOut', duration: 2 }}
                 className='project-container'
             >
                 <motion.h1 style={{ fontSize: '2.5em' }}>MyDiary</motion.h1>
@@ -47,9 +47,9 @@ const Project = () => {
 
             <motion.div
                 key={'monpoison'}
-                initial={{ opacity: 0, x: 300 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ type: 'easeOut', duration: 0.8 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ type: 'easeOut', duration: 3 }}
                 className='project-container'
             >
                 <motion.h1 style={{ fontSize: '2.5em' }}>Monpoison</motion.h1>

@@ -20,10 +20,9 @@ const CvItemLeft = ({ bgColor }) => {
             initial="offscreen"
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.2 }}
-            className="cv-item"
+            className="cv-item cv-item-left"
         >
             <motion.div variants={cardVariants} style={{
-                height: '230vh',
                 backgroundColor: bgColor,
                 margin: '0',
                 borderRadius: '0 60px 60px 0',
