@@ -29,16 +29,6 @@ const Contact = () => {
                 </motion.h1>
             </motion.a>
 
-            <motion.h2
-                key={'phone'}
-                initial={{ y: '100vh' }}
-                animate={{ y: 250 }}
-                transition={{ type: 'easeOut', duration: 0.9 }}
-                style={{ fontSize: '2.5em', textAlign: 'center', color: 'var(--dark-police)' }}
-            >
-                06 23 92 49 49
-            </motion.h2>
-
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <motion.div
                     key={'socialTitle'}
