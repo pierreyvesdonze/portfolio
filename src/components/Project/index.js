@@ -9,19 +9,20 @@ const Project = () => {
 
     return (
         <AnimatePresence>
-            <motion.div
-                key={'absurdum'}
-                initial={{ opacity: 0}}
-                animate={{ opacity: 1}}
+           
+           <motion.div
+                key={'fmr'}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
                 transition={{ type: 'easeOut', duration: 1 }}
                 className='project-container'
             >
-                <motion.h1 style={{ fontSize: '2.5em' }}>Absurdum</motion.h1>
-                <motion.h2>React JS</motion.h2>
+                <motion.h1 style={{ fontSize: '2.5em' }}>F M R</motion.h1>
+                <motion.h2>Symfony</motion.h2>
                 <motion.p>
-                    Absurdum est un jeu Javascript créé avec React (et ChatGPT). Le jeu est un ensemble de plusieurs niveaux de difficulté et de quêtes, matérialisés par des mini-jeux d'énigmes, de réflexion et de rapidité. J'ai choisi ici de limiter l'utilisation aux PC uniquement, avec grand écran, clavier et souris.
+                    Ce projet est un template en constante évolution d'un espace e-commerce en C2C. Le but n'est pas de concurrencer Vinted, mais d'offrir la possibilité à quiconque voudrait créer une boutique en ligne d'achat/revente de vêtements, chaussures et accessoires.
                 </motion.p>
-                <Link to={'https://absurdum.pydonze.fr'} className='project-link' target='_blank'>JOUER</Link>
+                <Link to={'https://fmr.pydonze.fr'} target='_blank' className='project-link'>VISITER</Link>
             </motion.div>
 
             <motion.br key={'br1'} />
@@ -61,6 +62,25 @@ const Project = () => {
             </motion.div>
 
             <motion.br key={'br3'} />
+            <motion.hr key={'hr3'} />
+
+            <motion.div
+                key={'absurdum'}
+                initial={{ opacity: 0}}
+                animate={{ opacity: 1}}
+                transition={{ type: 'easeOut', duration: 4 }}
+                className='project-container'
+            >
+                <motion.h1 style={{ fontSize: '2.5em' }}>Absurdum</motion.h1>
+                <motion.h2>React JS</motion.h2>
+                <motion.p>
+                    Absurdum est un jeu Javascript créé avec React (et ChatGPT). Le jeu est un ensemble de plusieurs niveaux de difficulté et de quêtes, matérialisés par des mini-jeux d'énigmes, de réflexion et de rapidité. J'ai choisi ici de limiter l'utilisation aux PC uniquement, avec grand écran, clavier et souris.
+                </motion.p>
+                <Link to={'https://absurdum.pydonze.fr'} className='project-link' target='_blank'>JOUER</Link>
+            </motion.div>
+
+            <motion.br key={'br4'} />
+
         </AnimatePresence>
     );
 }

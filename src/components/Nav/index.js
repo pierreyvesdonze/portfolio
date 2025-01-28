@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { TiHome } from "react-icons/ti";
-import { HiMusicNote } from "react-icons/hi";
 import { TbWorld } from "react-icons/tb";
 import { MdContactMail } from "react-icons/md";
 
