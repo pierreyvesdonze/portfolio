@@ -1,11 +1,17 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+
+const images = [
+    { src: "/images/nespad.PNG", alt: "Nespad" },
+    { src: "/images/gameboy.png", alt: "Gameboy" },
+    { src: "/images/supernes.PNG", alt: "Super NES" },
+    { src: "/images/switch.PNG", alt: "Switch" }
+];
 
 const Gallery = () => {
     useEffect(() => {
-        // Faire défiler la page jusqu'en haut lorsque le composant est monté
         window.scrollTo(0, 0);
     }, []);
 
@@ -41,6 +47,7 @@ const Gallery = () => {
                     transformOrigin: "left"
                 }}
             />
+            
             <div style={{ maxWidth: "100%", margin: "auto", marginTop: "250px", userSelect: 'none' }}>
                 <Carousel
                     autoPlay
@@ -48,54 +55,23 @@ const Gallery = () => {
                     showThumbs={false}
                     showStatus={false}
                     swipeable={true}
-                    dynamicHeight={true} // Pour ajuster la hauteur en fonction de l'image
+                    dynamicHeight={true}
                     emulateTouch
                     interval={5000}
                 >
-                    <div>
-                        <img
-                            src="/images/gameboy.png"
-                            alt="Gameboy"
-                            style={{
-                                width: "100%",
-                                objectFit: "contain",
-                                maxHeight: "500px"
-                            }}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            src="/images/nespad.PNG"
-                            alt="Nespad"
-                            style={{
-                                width: "100%",
-                                objectFit: "contain",
-                                maxHeight: "500px"
-                            }}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            src="/images/supernes.PNG"
-                            alt="Super NES"
-                            style={{
-                                width: "100%",
-                                objectFit: "contain",
-                                maxHeight: "500px"
-                            }}
-                        />
-                    </div>
-                    <div>
-                        <img
-                            src="/images/switch.PNG"
-                            alt="Switch"
-                            style={{
-                                width: "100%",
-                                objectFit: "contain",
-                                maxHeight: "500px"
-                            }}
-                        />
-                    </div>
+                    {images.map((image, index) => (
+                        <div key={index}>
+                            <img
+                                src={image.src}
+                                alt={image.alt}
+                                style={{
+                                    width: "100%",
+                                    objectFit: "contain",
+                                    maxHeight: "500px"
+                                }}
+                            />
+                        </div>
+                    ))}
                 </Carousel>
             </div>
         </div>
