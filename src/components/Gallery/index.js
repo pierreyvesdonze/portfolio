@@ -65,7 +65,7 @@ const Gallery = () => {
                     </div>
                     <div>
                         <img
-                            src="/images/nespad.png"
+                            src="/images/nespad.PNG"
                             alt="Nespad"
                             style={{
                                 width: "100%",
@@ -76,7 +76,7 @@ const Gallery = () => {
                     </div>
                     <div>
                         <img
-                            src="/images/supernes.png"
+                            src="/images/supernes.PNG"
                             alt="Super NES"
                             style={{
                                 width: "100%",
@@ -87,7 +87,7 @@ const Gallery = () => {
                     </div>
                     <div>
                         <img
-                            src="/images/switch.png"
+                            src="/images/switch.PNG"
                             alt="Switch"
                             style={{
                                 width: "100%",
