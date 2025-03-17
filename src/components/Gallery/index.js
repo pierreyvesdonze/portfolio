@@ -58,6 +58,7 @@ const Gallery = () => {
                     dynamicHeight={true}
                     emulateTouch
                     interval={5000}
+                    stopOnHover={true}
                 >
                     {images.map((image, index) => (
                         <div key={index}>
