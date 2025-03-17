@@ -4,10 +4,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 const images = [
-    { src: "/images/nespad.PNG", alt: "Nespad" },
-    { src: "/images/gameboy.png", alt: "Gameboy" },
-    { src: "/images/supernes.PNG", alt: "Super NES" },
-    { src: "/images/switch.PNG", alt: "Switch" }
+    { src: "/portfolio/images/nespad.PNG", alt: "Nespad" },
+    { src: "/portfolio/images/gameboy.png", alt: "Gameboy" },
+    { src: "/portfolio/images/supernes.PNG", alt: "Super NES" },
+    { src: "/portfolio/images/switch.PNG", alt: "Switch" }
 ];
 
 const Gallery = () => {
