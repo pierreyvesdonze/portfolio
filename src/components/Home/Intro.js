@@ -126,7 +126,7 @@ const Intro = () => {
                 transition={{ type: 'easeOut', duration: 1.5 }}
                 style={{ margin: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
             >
-                <FaArrowDown size={35} />
+                <FaArrowDown size={35} color="orange"/>
             </motion.div>
         </motion.div>
     )
