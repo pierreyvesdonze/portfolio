@@ -7,7 +7,7 @@ import { GiPaintBucket } from "react-icons/gi";
 const Nav = () => {
     return (
         <div className="nav-container">
-            <Link to={'/'} className="menu-navlink">
+            <Link to={'/portfolio'} className="menu-navlink">
                 <TiHome size={25} />
             </Link>
             <Link to={'/projets'} className="menu-navlink">
