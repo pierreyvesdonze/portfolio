@@ -11,7 +11,7 @@ MEDIA QUERIES
   --dark-police-hover: rgb(97, 97, 97);
   --light-police: rgb(192, 192, 192);
   --light-police-hover: rgb(243, 243, 243);
-  --orange-text: #e47239;
+  --orange-text: orange;
 }
 
 * {
@@ -198,7 +198,7 @@ a {
 }
 
 .skills-card-parent {
-  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(1, 0, 6) 100%);
+  background: radial-gradient(circle, rgb(241, 159, 36) 0%, rgb(39, 24, 1) 100%);
 }
 
 .cv-subtitle-item {
