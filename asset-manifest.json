@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pierreyvesdonze/portfolio/static/css/main.503d4dc2.css",
+    "main.js": "/pierreyvesdonze/portfolio/static/js/main.c7fd1f3b.js",
+    "index.html": "/pierreyvesdonze/portfolio/index.html",
+    "main.503d4dc2.css.map": "/pierreyvesdonze/portfolio/static/css/main.503d4dc2.css.map",
+    "main.c7fd1f3b.js.map": "/pierreyvesdonze/portfolio/static/js/main.c7fd1f3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.503d4dc2.css",
+    "static/js/main.c7fd1f3b.js"
+  ]
+}

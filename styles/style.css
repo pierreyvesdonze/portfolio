@@ -1,0 +1,335 @@
+/*
+***********************************
+MEDIA QUERIES
+***********************************
+*/
+:root {
+  --body-bg: white;
+  --joy-bg-color: #fbfcfe;
+  --navbar-color: #ffffff75;
+  --dark-police: rgb(44, 44, 44);
+  --dark-police-hover: rgb(97, 97, 97);
+  --light-police: rgb(192, 192, 192);
+  --light-police-hover: rgb(243, 243, 243);
+  --orange-text: #e47239;
+}
+
+* {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+ul > li {
+  list-style-type: none;
+  font-size: 0.7em;
+  margin-top: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-container {
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 0;
+  padding: 0 20px;
+  height: 43px;
+  background-color: var(--navbar-color) !important;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 20px 20px;
+}
+
+.menu-navlink {
+  margin: 20px;
+  color: var(--dark-police);
+}
+.menu-navlink:hover {
+  color: var(--dark-police-hover);
+}
+
+#bouton-truc {
+  background-color: #101010;
+  color: white;
+  border: solid 1px black;
+}
+
+#bouton-truc-blanc {
+  background-color: #f1f1f1;
+  color: rgb(51, 51, 51);
+  border: solid 1px rgb(192, 192, 192);
+}
+
+#bouton-truc,
+#bouton-truc-blanc {
+  width: 4em;
+  height: 4em;
+  padding: 0.5em;
+  border-radius: 100%;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.719);
+  font-size: 1.31em;
+  cursor: pointer;
+}
+#bouton-truc:hover,
+#bouton-truc-blanc:hover {
+  font-size: 1.3em;
+  box-shadow: inset 0px 0px 8px 3px rgba(0, 0, 0, 0.719);
+}
+
+.intro-name {
+  font-size: 6em;
+  text-align: center;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .intro-name {
+    font-size: 3em;
+  }
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .intro-name {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #presentation,
+  #cv {
+    flex-direction: column;
+  }
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  #presentation,
+  #cv {
+    flex-direction: column;
+  }
+}
+
+.presentation-item,
+.cv-item {
+  width: 50%;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .presentation-item,
+  .cv-item {
+    width: 100%;
+  }
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .presentation-item,
+  .cv-item {
+    width: 100%;
+  }
+}
+
+.cv-item-left {
+  height: 150vh;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .cv-item-left {
+    height: 220vh;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .cv-item-left {
+    height: 220vh;
+  }
+}
+
+.cv-item-right {
+  height: 130vh;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .cv-item-right {
+    height: 155vh;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .cv-item-right {
+    height: 155vh;
+  }
+}
+
+.skills-container {
+  height: 105vh;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .skills-container {
+    height: 130vh;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .skills-container {
+    height: 130vh;
+  }
+}
+
+.skills-card-parent {
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(1, 0, 6) 100%);
+}
+
+.cv-subtitle-item {
+  color: var(--orange-text);
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.cv-li {
+  padding: 0;
+  margin-top: 0 !important;
+}
+
+.cv-li-date {
+  color: rgb(122, 122, 122);
+  font-size: 0.5em;
+}
+
+.cv-music {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3em;
+  color: rgb(0, 0, 0);
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 50px;
+  width: 70%;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.project-container h2 {
+  color: var(--orange-text);
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.project-link {
+  margin-top: 25px;
+  color: var(--dark-police);
+  font-size: 1.4em;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0.5em;
+  border-radius: 20px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.719);
+  border: solid 1px var(--dark-police);
+}
+.project-link:hover {
+  box-shadow: none;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  padding: 20px;
+  gap: 20px;
+  padding: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+}
+
+.gallery-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.gallery-img img {
+  max-width: 200px;
+  max-height: 200px;
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .gallery-img img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .gallery-img img {
+    max-width: 170px;
+    max-height: 170px;
+  }
+}
+
+.contact {
+  word-break: break-all;
+}
+
+#contact-mail {
+  font-size: 3em;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  #contact-mail {
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  #contact-mail {
+    font-size: 1.7em;
+  }
+}/*# sourceMappingURL=style.css.map */
