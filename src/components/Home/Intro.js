@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { FaPhp } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { TbBrandCss3 } from "react-icons/tb";

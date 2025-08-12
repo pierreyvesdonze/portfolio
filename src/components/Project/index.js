@@ -76,7 +76,7 @@ const Project = () => {
                 <motion.p>
                     Absurdum est un jeu Javascript créé avec React (et ChatGPT). Le jeu est un ensemble de plusieurs niveaux de difficulté et de quêtes, matérialisés par des mini-jeux d'énigmes, de réflexion et de rapidité. J'ai choisi ici de limiter l'utilisation aux PC uniquement, avec grand écran, clavier et souris.
                 </motion.p>
-                <Link to={'https://absurdum.pydonze.fr'} className='project-link' target='_blank'>JOUER</Link>
+                <Link to={'https://pierreyvesdonze.github.io/absurdum/'} className='project-link' target='_blank'>JOUER</Link>
             </motion.div>
 
             <motion.br key={'br4'} />
