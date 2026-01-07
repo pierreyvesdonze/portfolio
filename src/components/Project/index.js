@@ -9,17 +9,43 @@ const Project = () => {
 
   return (
     <AnimatePresence>
-        <motion.div
+      <motion.div
         key={"absurdum"}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ type: "easeOut", duration: 4 }}
+        transition={{ type: "easeOut", duration: 0.5 }}
+        className="project-container"
+      >
+        <motion.h1 style={{ fontSize: "2.5em" }}>Robin Godde</motion.h1>
+        <motion.h2>Symfony</motion.h2>
+        <motion.p>
+          Site web personnel de l'artiste Robin Godde
+        </motion.p>
+        <Link
+          to={"https://robingodde.fr/"}
+          className="project-link"
+          target="_blank"
+        >
+          VISITER
+        </Link>
+      </motion.div>
+
+      <motion.br key={"br1"} />
+      <motion.hr key={"hr1"} />
+
+      <motion.div
+        key={"absurdum"}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ type: "easeOut", duration: 1 }}
         className="project-container"
       >
         <motion.h1 style={{ fontSize: "2.5em" }}>Passwords</motion.h1>
         <motion.h2>React JS</motion.h2>
         <motion.p>
-          Passwords est un mini jeu codé en Javascript, où l'unique but est de trouver le mot de passe pour accéder au niveau suivant. (PC uniquement)
+          Passwords est un mini jeu codé en Javascript, où l'unique but est de
+          trouver le mot de passe pour accéder au niveau suivant. (PC
+          uniquement)
         </motion.p>
         <Link
           to={"https://pierreyvesdonze.github.io/passwords/"}
@@ -37,16 +63,17 @@ const Project = () => {
         key={"absurdum"}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ type: "easeOut", duration: 4 }}
+        transition={{ type: "easeOut", duration: 2 }}
         className="project-container"
       >
         <motion.h1 style={{ fontSize: "2.5em" }}>Absurdum</motion.h1>
         <motion.h2>React JS</motion.h2>
         <motion.p>
-          Absurdum est un jeu Javascript créé avec React. Le jeu
-          est un ensemble de plusieurs niveaux de difficulté et de quêtes,
-          matérialisés par des mini-jeux d'énigmes, de réflexion et de rapidité.
-          J'ai choisi ici de limiter l'utilisation aux PC uniquement, avec grand écran, clavier et souris.
+          Absurdum est un jeu Javascript créé avec React. Le jeu est un ensemble
+          de plusieurs niveaux de difficulté et de quêtes, matérialisés par des
+          mini-jeux d'énigmes, de réflexion et de rapidité. J'ai choisi ici de
+          limiter l'utilisation aux PC uniquement, avec grand écran, clavier et
+          souris.
         </motion.p>
         <Link
           to={"https://pierreyvesdonze.github.io/absurdum/"}
@@ -64,7 +91,7 @@ const Project = () => {
         key={"fmr"}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ type: "easeOut", duration: 1 }}
+        transition={{ type: "easeOut", duration: 3 }}
         className="project-container"
       >
         <motion.h1 style={{ fontSize: "2.5em" }}>F M R</motion.h1>
@@ -91,7 +118,7 @@ const Project = () => {
         key={"mydiary"}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ type: "easeOut", duration: 2 }}
+        transition={{ type: "easeOut", duration: 4 }}
         className="project-container"
       >
         <motion.h1 style={{ fontSize: "2.5em" }}>MyDiary</motion.h1>
@@ -121,7 +148,7 @@ const Project = () => {
         key={"monpoison"}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ type: "easeOut", duration: 3 }}
+        transition={{ type: "easeOut", duration: 5 }}
         className="project-container"
       >
         <motion.h1 style={{ fontSize: "2.5em" }}>Monpoison</motion.h1>
