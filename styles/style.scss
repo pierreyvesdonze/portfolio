@@ -91,6 +91,13 @@ a {
     }
 }
 
+.project-link.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: gray;
+  opacity: 0.6;
+}
+
 // INTRO
 .intro-name {
     font-size: 6em;

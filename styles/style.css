@@ -110,6 +110,13 @@ a {
   box-shadow: inset 0px 0px 8px 3px rgba(0, 0, 0, 0.719);
 }
 
+.project-link.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: gray;
+  opacity: 0.6;
+}
+
 .intro-name {
   font-size: 6em;
   text-align: center;
