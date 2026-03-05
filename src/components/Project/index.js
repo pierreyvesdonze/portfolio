@@ -13,14 +13,37 @@ const Project = () => {
         key={"absurdum"}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
+        transition={{ type: "easeOut", duration: 0.3 }}
+        className="project-container"
+      >
+        <motion.h1 style={{ fontSize: "2.5em" }}>Nicolas Gothier</motion.h1>
+        <motion.h2>Symfony</motion.h2>
+        <motion.p>
+          Site web réalisé pour les besoin du saxophoniste professionnel Nicolas
+          Gothier
+        </motion.p>
+        <Link
+          to={"https://nicolasgothiersaxophoniste.fr/"}
+          className="project-link"
+          target="_blank"
+        >
+          VISITER
+        </Link>
+      </motion.div>
+
+      <motion.br key={"br1"} />
+      <motion.hr key={"hr1"} />
+
+      <motion.div
+        key={"absurdum"}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
         transition={{ type: "easeOut", duration: 0.5 }}
         className="project-container"
       >
         <motion.h1 style={{ fontSize: "2.5em" }}>Robin Godde</motion.h1>
         <motion.h2>Symfony</motion.h2>
-        <motion.p>
-          Site web personnel de l'artiste Robin Godde
-        </motion.p>
+        <motion.p>Site web personnel de l'artiste Robin Godde</motion.p>
         <Link
           to={"https://robingodde.fr/"}
           className="project-link"
