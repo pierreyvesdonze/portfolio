@@ -37,7 +37,7 @@ const Contact = () => {
                     transition={{ type: 'easeOut', duration: 1 }}
                     style={{ fontSize: '6em', textAlign: 'center' }}
                 >
-                    <Link to={'https://www.linkedin.com/in/pierreyvesdonz%C3%A9/'} target="_blank" style={{ color: 'var(--dark-text)' }}>
+                    <Link to={'https://www.linkedin.com/in/pierreyvesdonzé'} target="_blank" style={{ color: 'var(--dark-text)' }}>
                         <FaLinkedin size={50} />
                     </Link>
                     <Link to={'https://github.com/pierreyvesdonze'} target="_blank" style={{ color: 'var(--dark-text)', marginLeft: '20px' }}>

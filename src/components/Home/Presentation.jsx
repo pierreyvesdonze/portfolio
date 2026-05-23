@@ -1,5 +1,5 @@
-import PresentationItemLeft from "./PresentationItemLeft";
-import PresentationItemRight from "./PresentationItemRight.js";
+import PresentationItemLeft from "./PresentationItemLeft.jsx";
+import PresentationItemRight from "./PresentationItemRight.jsx";
 
 const Presentation = () => {
     return (

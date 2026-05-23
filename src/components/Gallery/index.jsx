@@ -2,12 +2,16 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import nespad from "../../images/nespad.PNG";
+import gameboy from "../../images/gameboy.png";
+import supernes from "../../images/supernes.PNG";
+import switch2 from "../../images/switch.PNG";
 
 const images = [
-    { src: "/portfolio/images/nespad.PNG", alt: "Nespad" },
-    { src: "/portfolio/images/gameboy.png", alt: "Gameboy" },
-    { src: "/portfolio/images/supernes.PNG", alt: "Super NES" },
-    { src: "/portfolio/images/switch.PNG", alt: "Switch" }
+    { src: nespad, alt: "Nespad" },
+    { src: gameboy, alt: "Gameboy" },
+    { src: supernes, alt: "Super NES" },
+    { src: switch2, alt: "Switch" }
 ];
 
 const Gallery = () => {

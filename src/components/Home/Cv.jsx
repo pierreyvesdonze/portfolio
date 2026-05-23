@@ -1,5 +1,5 @@
-import CvItemLeft from "./CvItemLeft.js";
-import CvItemRight from "./CvItemRight.js";
+import CvItemLeft from "./CvItemLeft.jsx";
+import CvItemRight from "./CvItemRight.jsx";
 import { motion } from "framer-motion";
 
 const Cv = () => {
